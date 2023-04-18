@@ -2,8 +2,6 @@
 
 
 ```
-5
-npm start
-6
+npm i moretime
 ```
 

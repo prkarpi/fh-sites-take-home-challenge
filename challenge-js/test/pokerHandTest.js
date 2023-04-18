@@ -17,7 +17,8 @@ describe('Rank a Royal Flush', function() {
 describe('Rank a Pair', function() {
   it('Return one pair when hand given', function() {
     var hand = new PokerHand('Ah As 10c 7d 6s');
-
+    const hand1 = new PokerHand('As Ks Qs Js 10s');
+    console.log(hand1.getRank()); // should output 'Royal Flush'
     assert.equal(hand.getRank(), 'One Pair');
   });
 });
@@ -45,3 +46,4 @@ describe('Rank A Flush', function() {
 });
 
 // More tests go here
+
